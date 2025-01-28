@@ -17,6 +17,9 @@ config/icon="res://Arts/TemplateImages/Icon.png"
 
 [display]
 
+window/size/viewport_width=2560
+window/size/viewport_height=1600
+window/size/mode=4
 window/stretch/mode="canvas_items"
 
 [editor_plugins]
@@ -92,6 +95,10 @@ useKnockbackTool={
 3d_physics/layer_1="structures"
 3d_physics/layer_2="playerCharacter"
 3d_physics/layer_3="walkableWalls"
+
+[physics]
+
+common/physics_ticks_per_second=240
 
 [rendering]
 
